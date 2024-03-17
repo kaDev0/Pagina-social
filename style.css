@@ -56,9 +56,10 @@ li a{
    align-items: center;
    justify-content: center;
    text-decoration: none;
+   justify-content: space-between;
 
    border: 2px solid #BB99DD;
-   border-radius: 6px;
+   border-radius: 25px;
 
    padding: 12px 24px;
 
@@ -74,7 +75,8 @@ li a{
 
 li:hover{
     background-color: #dbaef0; 
-    color: #566189; 
+    border-radius: 25px;
+    color: #9699a3; 
     cursor: pointer;
 }
 
@@ -88,14 +90,15 @@ li:hover{
 }
 
 .inscos{
- background-color: rgb(250, 250, 250);
+ background-color: rgba(189, 184, 235, 0.383);
  border-color: #566189;
- padding: 10px;
+ color: aliceblue;
+ padding: 5px;
  border-radius:30px;
 }
 
 .inscos:hover{
-    border-radius: 6px;
+    border-radius: 5px;
     border-color: #566189;
     cursor: pointer;
 }
