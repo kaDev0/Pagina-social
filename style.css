@@ -61,7 +61,7 @@ li a{
    border: 2px solid #BB99DD;
    border-radius: 25px;
 
-   padding: 12px 24px;
+   padding: 9px 24px;
 
    text-align: center;
    font-family: Poppins;
@@ -75,7 +75,7 @@ li a{
 
 li:hover{
     background-color: #dbaef0; 
-    border-radius: 25px;
+    border-radius: 26px;
     color: #9699a3; 
     cursor: pointer;
 }
@@ -89,17 +89,22 @@ li:hover{
     margin-bottom: 20px;
 }
 
+.icom{
+    width: 24px;
+    height: 24px;
+}
+
 .inscos{
- background-color: rgba(189, 184, 235, 0.383);
- border-color: #566189;
+
+
  color: aliceblue;
  padding: 5px;
  border-radius:30px;
+ background-color: #9699a3;
 }
 
 .inscos:hover{
-    border-radius: 5px;
-    border-color: #566189;
+    border-radius: 5px; 
     cursor: pointer;
 }
 
